@@ -30,6 +30,7 @@ section {
 
 .container {
   width: 1170px;
+  margin: auto;
 }
 
 @media (max-width: 1200px) {
@@ -41,6 +42,7 @@ section {
 
 a {
   text-decoration: none;
+  color: #242424;
 }
 
 p {
@@ -124,6 +126,9 @@ hr {
   color: #B4B4B4;
 }
 
+.text-light {
+  color: #ffffff;
+}
 /* align */
 .items-center {
   align-items: center;
@@ -172,11 +177,15 @@ hr {
   padding-right: 0;
 }
 
-.px-y {
+.py-0 {
   padding-top: 0;
   padding-bottom: 0;
 }
 
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 /* corner */
 .corner-6 {
   border-radius: 6px;
@@ -257,4 +266,8 @@ hr {
   align-items: center;
   border-radius: 3px;
   font-size: 14px;
+}
+
+.header-top {
+  padding: 50px;
 }
